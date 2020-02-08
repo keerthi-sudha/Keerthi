@@ -1,0 +1,3 @@
+This is a new file
+Appending some text into the file
+files in c#

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOResturant", "C:\Users\Admin\Downloads\ADOResturant.csproj", "{FBDACB1D-BB3F-45B2-9D9C-1682B11B3159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDACB1D-BB3F-45B2-9D9C-1682B11B3159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDACB1D-BB3F-45B2-9D9C-1682B11B3159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDACB1D-BB3F-45B2-9D9C-1682B11B3159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDACB1D-BB3F-45B2-9D9C-1682B11B3159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6400CD1-1FF9-4761-8011-43138CA36455}
+	EndGlobalSection
+EndGlobal
