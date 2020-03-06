@@ -1,0 +1,7 @@
+D:\keerthi\c#\FileOperation\FileOperation\bin\Debug\FileOperation.exe.config
+D:\keerthi\c#\FileOperation\FileOperation\bin\Debug\FileOperation.exe
+D:\keerthi\c#\FileOperation\FileOperation\bin\Debug\FileOperation.pdb
+D:\keerthi\c#\FileOperation\FileOperation\obj\Debug\FileOperation.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\FileOperation\FileOperation\obj\Debug\FileOperation.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\FileOperation\FileOperation\obj\Debug\FileOperation.exe
+D:\keerthi\c#\FileOperation\FileOperation\obj\Debug\FileOperation.pdb

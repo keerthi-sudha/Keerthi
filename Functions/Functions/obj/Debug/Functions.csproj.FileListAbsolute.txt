@@ -1,0 +1,7 @@
+D:\keerthi\c#\Functions\Functions\bin\Debug\Functions.exe.config
+D:\keerthi\c#\Functions\Functions\bin\Debug\Functions.exe
+D:\keerthi\c#\Functions\Functions\bin\Debug\Functions.pdb
+D:\keerthi\c#\Functions\Functions\obj\Debug\Functions.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\Functions\Functions\obj\Debug\Functions.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\Functions\Functions\obj\Debug\Functions.exe
+D:\keerthi\c#\Functions\Functions\obj\Debug\Functions.pdb

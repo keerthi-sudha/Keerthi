@@ -1,0 +1,7 @@
+D:\keerthi\c#\mdarray\mdarray\bin\Debug\mdarray.exe.config
+D:\keerthi\c#\mdarray\mdarray\bin\Debug\mdarray.exe
+D:\keerthi\c#\mdarray\mdarray\bin\Debug\mdarray.pdb
+D:\keerthi\c#\mdarray\mdarray\obj\Debug\mdarray.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\mdarray\mdarray\obj\Debug\mdarray.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\mdarray\mdarray\obj\Debug\mdarray.exe
+D:\keerthi\c#\mdarray\mdarray\obj\Debug\mdarray.pdb

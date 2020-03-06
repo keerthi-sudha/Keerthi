@@ -1,0 +1,7 @@
+D:\keerthi\c#\Exceptions\Exceptions\bin\Debug\Exceptions.exe.config
+D:\keerthi\c#\Exceptions\Exceptions\bin\Debug\Exceptions.exe
+D:\keerthi\c#\Exceptions\Exceptions\bin\Debug\Exceptions.pdb
+D:\keerthi\c#\Exceptions\Exceptions\obj\Debug\Exceptions.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\Exceptions\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\Exceptions\Exceptions\obj\Debug\Exceptions.exe
+D:\keerthi\c#\Exceptions\Exceptions\obj\Debug\Exceptions.pdb

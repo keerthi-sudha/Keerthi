@@ -1,0 +1,7 @@
+D:\keerthi\c#\Interfaces\Interfaces\bin\Debug\Interfaces.exe.config
+D:\keerthi\c#\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+D:\keerthi\c#\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+D:\keerthi\c#\Interfaces\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\Interfaces\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\Interfaces\Interfaces\obj\Debug\Interfaces.exe
+D:\keerthi\c#\Interfaces\Interfaces\obj\Debug\Interfaces.pdb
