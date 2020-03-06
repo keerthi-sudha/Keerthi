@@ -1,0 +1,7 @@
+D:\keerthi\c#\DatatypesExample\DatatypesExample\obj\Debug\DatatypesExample.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\DatatypesExample\DatatypesExample\obj\Debug\DatatypesExample.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\DatatypesExample\DatatypesExample\bin\Debug\DatatypesExample.exe.config
+D:\keerthi\c#\DatatypesExample\DatatypesExample\bin\Debug\DatatypesExample.exe
+D:\keerthi\c#\DatatypesExample\DatatypesExample\bin\Debug\DatatypesExample.pdb
+D:\keerthi\c#\DatatypesExample\DatatypesExample\obj\Debug\DatatypesExample.exe
+D:\keerthi\c#\DatatypesExample\DatatypesExample\obj\Debug\DatatypesExample.pdb
