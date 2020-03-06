@@ -1,0 +1,7 @@
+D:\keerthi\c#\Properties\Properties\bin\Debug\Properties.exe.config
+D:\keerthi\c#\Properties\Properties\bin\Debug\Properties.exe
+D:\keerthi\c#\Properties\Properties\bin\Debug\Properties.pdb
+D:\keerthi\c#\Properties\Properties\obj\Debug\Properties.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\Properties\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\Properties\Properties\obj\Debug\Properties.exe
+D:\keerthi\c#\Properties\Properties\obj\Debug\Properties.pdb

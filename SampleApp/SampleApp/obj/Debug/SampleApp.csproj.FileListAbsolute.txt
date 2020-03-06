@@ -1,0 +1,7 @@
+D:\keerthi\c#\SampleApp\SampleApp\bin\Debug\SampleApp.exe.config
+D:\keerthi\c#\SampleApp\SampleApp\bin\Debug\SampleApp.exe
+D:\keerthi\c#\SampleApp\SampleApp\bin\Debug\SampleApp.pdb
+D:\keerthi\c#\SampleApp\SampleApp\obj\Debug\SampleApp.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\SampleApp\SampleApp\obj\Debug\SampleApp.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\SampleApp\SampleApp\obj\Debug\SampleApp.exe
+D:\keerthi\c#\SampleApp\SampleApp\obj\Debug\SampleApp.pdb

@@ -1,0 +1,7 @@
+D:\keerthi\c#\Relationships\Relationships\bin\Debug\Relationships.exe.config
+D:\keerthi\c#\Relationships\Relationships\bin\Debug\Relationships.exe
+D:\keerthi\c#\Relationships\Relationships\bin\Debug\Relationships.pdb
+D:\keerthi\c#\Relationships\Relationships\obj\Debug\Relationships.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\Relationships\Relationships\obj\Debug\Relationships.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\Relationships\Relationships\obj\Debug\Relationships.exe
+D:\keerthi\c#\Relationships\Relationships\obj\Debug\Relationships.pdb
