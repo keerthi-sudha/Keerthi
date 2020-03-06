@@ -1,0 +1,6 @@
+D:\keerthi\c#\xmlWrite\xmlWrite\obj\Debug\xmlWrite.csprojAssemblyReference.cache
+D:\keerthi\c#\xmlWrite\xmlWrite\bin\Debug\xmlWrite.exe.config
+D:\keerthi\c#\xmlWrite\xmlWrite\bin\Debug\xmlWrite.exe
+D:\keerthi\c#\xmlWrite\xmlWrite\bin\Debug\xmlWrite.pdb
+D:\keerthi\c#\xmlWrite\xmlWrite\obj\Debug\xmlWrite.exe
+D:\keerthi\c#\xmlWrite\xmlWrite\obj\Debug\xmlWrite.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books>
+  <book>
+    <id>1234</id>
+    <title>The perfect plot</title>
+    <price>135.50</price>
+    
+  </book>
+  <book>
+    <id>1674</id>
+    <title>The Almighty</title>
+    <price>8000</price>
+  </book>
+  <book>
+    <id>123</id>
+    <title>The wings of fire</title>
+    <price>5000</price>
+  </book>
+</books>

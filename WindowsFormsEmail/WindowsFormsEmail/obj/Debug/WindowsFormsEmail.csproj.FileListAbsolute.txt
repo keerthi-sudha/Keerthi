@@ -1,0 +1,9 @@
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\bin\Debug\WindowsFormsEmail.exe.config
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\bin\Debug\WindowsFormsEmail.exe
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\bin\Debug\WindowsFormsEmail.pdb
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.csprojAssemblyReference.cache
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.Form1.resources
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.Properties.Resources.resources
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.csproj.GenerateResource.cache
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.exe
+D:\keerthi\c#\WindowsFormsEmail\WindowsFormsEmail\obj\Debug\WindowsFormsEmail.pdb
