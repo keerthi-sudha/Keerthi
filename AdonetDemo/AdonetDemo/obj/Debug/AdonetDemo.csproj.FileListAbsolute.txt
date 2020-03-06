@@ -1,0 +1,6 @@
+D:\keerthi\c#\AdonetDemo\AdonetDemo\bin\Debug\AdonetDemo.exe.config
+D:\keerthi\c#\AdonetDemo\AdonetDemo\bin\Debug\AdonetDemo.exe
+D:\keerthi\c#\AdonetDemo\AdonetDemo\bin\Debug\AdonetDemo.pdb
+D:\keerthi\c#\AdonetDemo\AdonetDemo\obj\Debug\AdonetDemo.csprojAssemblyReference.cache
+D:\keerthi\c#\AdonetDemo\AdonetDemo\obj\Debug\AdonetDemo.exe
+D:\keerthi\c#\AdonetDemo\AdonetDemo\obj\Debug\AdonetDemo.pdb

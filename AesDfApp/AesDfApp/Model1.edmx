@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EmployeeDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Marks">
+          <Key>
+            <PropertyRef Name="marks" />
+          </Key>
+          <Property Name="marks" Type="int" Nullable="false" />
+          <Property Name="sregno" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="subid" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="School">
+          <Key>
+            <PropertyRef Name="Scid" />
+          </Key>
+          <Property Name="Scid" Type="int" Nullable="false" />
+          <Property Name="scname" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Student_table">
+          <Key>
+            <PropertyRef Name="sregno" />
+          </Key>
+          <Property Name="sregno" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Scid" Type="int" Nullable="false" />
+          <Property Name="stdname" Type="nchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Subjects">
+          <Key>
+            <PropertyRef Name="subid" />
+          </Key>
+          <Property Name="subid" Type="int" Nullable="false" />
+          <Property Name="subname" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <Association Name="fk1">
+          <End Role="School" Type="Self.School" Multiplicity="1" />
+          <End Role="Student_table" Type="Self.Student_table" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="School">
+              <PropertyRef Name="Scid" />
+            </Principal>
+            <Dependent Role="Student_table">
+              <PropertyRef Name="Scid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="frk">
+          <End Role="Student_table" Type="Self.Student_table" Multiplicity="1" />
+          <End Role="Marks" Type="Self.Marks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student_table">
+              <PropertyRef Name="sregno" />
+            </Principal>
+            <Dependent Role="Marks">
+              <PropertyRef Name="sregno" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="frk1">
+          <End Role="Subjects" Type="Self.Subjects" Multiplicity="1" />
+          <End Role="Marks" Type="Self.Marks" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="subid" />
+            </Principal>
+            <Dependent Role="Marks">
+              <PropertyRef Name="subid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EmployeeDBModelStoreContainer">
+          <EntitySet Name="Marks" EntityType="Self.Marks" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="School" EntityType="Self.School" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student_table" EntityType="Self.Student_table" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="fk1" Association="Self.fk1">
+            <End Role="School" EntitySet="School" />
+            <End Role="Student_table" EntitySet="Student_table" />
+          </AssociationSet>
+          <AssociationSet Name="frk" Association="Self.frk">
+            <End Role="Student_table" EntitySet="Student_table" />
+            <End Role="Marks" EntitySet="Marks" />
+          </AssociationSet>
+          <AssociationSet Name="frk1" Association="Self.frk1">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="Marks" EntitySet="Marks" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EmployeeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Mark">
+          <Key>
+            <PropertyRef Name="marks" />
+          </Key>
+          <Property Name="marks" Type="Int32" Nullable="false" />
+          <Property Name="sregno" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="subid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Student_table" Relationship="Self.frk" FromRole="Marks" ToRole="Student_table" />
+          <NavigationProperty Name="Subject" Relationship="Self.frk1" FromRole="Marks" ToRole="Subjects" />
+        </EntityType>
+        <EntityType Name="School">
+          <Key>
+            <PropertyRef Name="Scid" />
+          </Key>
+          <Property Name="Scid" Type="Int32" Nullable="false" />
+          <Property Name="scname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Student_table" Relationship="Self.fk1" FromRole="School" ToRole="Student_table" />
+        </EntityType>
+        <EntityType Name="Student_table">
+          <Key>
+            <PropertyRef Name="sregno" />
+          </Key>
+          <Property Name="sregno" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Scid" Type="Int32" Nullable="false" />
+          <Property Name="stdname" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Marks" Relationship="Self.frk" FromRole="Student_table" ToRole="Marks" />
+          <NavigationProperty Name="School" Relationship="Self.fk1" FromRole="Student_table" ToRole="School" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="subid" />
+          </Key>
+          <Property Name="subid" Type="Int32" Nullable="false" />
+          <Property Name="subname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Marks" Relationship="Self.frk1" FromRole="Subjects" ToRole="Marks" />
+        </EntityType>
+        <Association Name="frk">
+          <End Role="Student_table" Type="Self.Student_table" Multiplicity="1" />
+          <End Role="Marks" Type="Self.Mark" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student_table">
+              <PropertyRef Name="sregno" />
+            </Principal>
+            <Dependent Role="Marks">
+              <PropertyRef Name="sregno" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="frk1">
+          <End Role="Subjects" Type="Self.Subject" Multiplicity="1" />
+          <End Role="Marks" Type="Self.Mark" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="subid" />
+            </Principal>
+            <Dependent Role="Marks">
+              <PropertyRef Name="subid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk1">
+          <End Role="School" Type="Self.School" Multiplicity="1" />
+          <End Role="Student_table" Type="Self.Student_table" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="School">
+              <PropertyRef Name="Scid" />
+            </Principal>
+            <Dependent Role="Student_table">
+              <PropertyRef Name="Scid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EmployeeDBEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Marks" EntityType="Self.Mark" />
+          <EntitySet Name="Schools" EntityType="Self.School" />
+          <EntitySet Name="Student_table" EntityType="Self.Student_table" />
+          <EntitySet Name="Subjects" EntityType="Self.Subject" />
+          <AssociationSet Name="frk" Association="Self.frk">
+            <End Role="Student_table" EntitySet="Student_table" />
+            <End Role="Marks" EntitySet="Marks" />
+          </AssociationSet>
+          <AssociationSet Name="frk1" Association="Self.frk1">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="Marks" EntitySet="Marks" />
+          </AssociationSet>
+          <AssociationSet Name="fk1" Association="Self.fk1">
+            <End Role="School" EntitySet="Schools" />
+            <End Role="Student_table" EntitySet="Student_table" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EmployeeDBModelStoreContainer" CdmEntityContainer="EmployeeDBEntities1">
+          <EntitySetMapping Name="Marks">
+            <EntityTypeMapping TypeName="EmployeeDBModel.Mark">
+              <MappingFragment StoreEntitySet="Marks">
+                <ScalarProperty Name="marks" ColumnName="marks" />
+                <ScalarProperty Name="sregno" ColumnName="sregno" />
+                <ScalarProperty Name="subid" ColumnName="subid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Schools">
+            <EntityTypeMapping TypeName="EmployeeDBModel.School">
+              <MappingFragment StoreEntitySet="School">
+                <ScalarProperty Name="Scid" ColumnName="Scid" />
+                <ScalarProperty Name="scname" ColumnName="scname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Student_table">
+            <EntityTypeMapping TypeName="EmployeeDBModel.Student_table">
+              <MappingFragment StoreEntitySet="Student_table">
+                <ScalarProperty Name="sregno" ColumnName="sregno" />
+                <ScalarProperty Name="Scid" ColumnName="Scid" />
+                <ScalarProperty Name="stdname" ColumnName="stdname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="EmployeeDBModel.Subject">
+              <MappingFragment StoreEntitySet="Subjects">
+                <ScalarProperty Name="subid" ColumnName="subid" />
+                <ScalarProperty Name="subname" ColumnName="subname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
