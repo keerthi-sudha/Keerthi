@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\Collections\Collections\bin\Debug\Collections.exe.config
+C:\Users\Admin\source\repos\Collections\Collections\bin\Debug\Collections.exe
+C:\Users\Admin\source\repos\Collections\Collections\bin\Debug\Collections.pdb
+C:\Users\Admin\source\repos\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Collections\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Collections\Collections\obj\Debug\Collections.exe
+C:\Users\Admin\source\repos\Collections\Collections\obj\Debug\Collections.pdb
+D:\keerthi\c#\Collections\Collections\bin\Debug\Collections.exe.config
+D:\keerthi\c#\Collections\Collections\bin\Debug\Collections.exe
+D:\keerthi\c#\Collections\Collections\bin\Debug\Collections.pdb
+D:\keerthi\c#\Collections\Collections\obj\Debug\Collections.exe
+D:\keerthi\c#\Collections\Collections\obj\Debug\Collections.pdb
+D:\keerthi\c#\Collections\Collections\obj\Debug\Collections.csprojAssemblyReference.cache

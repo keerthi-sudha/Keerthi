@@ -1,0 +1,7 @@
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\bin\Debug\boxingandunbxing.exe.config
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\bin\Debug\boxingandunbxing.exe
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\bin\Debug\boxingandunbxing.pdb
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\obj\Debug\boxingandunbxing.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\obj\Debug\boxingandunbxing.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\obj\Debug\boxingandunbxing.exe
+D:\keerthi\c#\boxingandunbxing\boxingandunbxing\obj\Debug\boxingandunbxing.pdb

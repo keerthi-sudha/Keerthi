@@ -1,0 +1,7 @@
+D:\keerthi\c#\calculator\calculator\bin\Debug\calculator.exe.config
+D:\keerthi\c#\calculator\calculator\bin\Debug\calculator.exe
+D:\keerthi\c#\calculator\calculator\bin\Debug\calculator.pdb
+D:\keerthi\c#\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\calculator\calculator\obj\Debug\calculator.exe
+D:\keerthi\c#\calculator\calculator\obj\Debug\calculator.pdb

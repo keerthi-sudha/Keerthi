@@ -1,0 +1,5 @@
+D:\keerthi\c#\ClassLibCalculation\ClassLibCalculation\bin\Debug\ClassLibCalculation.dll
+D:\keerthi\c#\ClassLibCalculation\ClassLibCalculation\bin\Debug\ClassLibCalculation.pdb
+D:\keerthi\c#\ClassLibCalculation\ClassLibCalculation\obj\Debug\ClassLibCalculation.csprojAssemblyReference.cache
+D:\keerthi\c#\ClassLibCalculation\ClassLibCalculation\obj\Debug\ClassLibCalculation.dll
+D:\keerthi\c#\ClassLibCalculation\ClassLibCalculation\obj\Debug\ClassLibCalculation.pdb

@@ -1,0 +1,7 @@
+D:\keerthi\c#\callbyvalue\callbyvalue\bin\Debug\callbyvalue.exe.config
+D:\keerthi\c#\callbyvalue\callbyvalue\bin\Debug\callbyvalue.exe
+D:\keerthi\c#\callbyvalue\callbyvalue\bin\Debug\callbyvalue.pdb
+D:\keerthi\c#\callbyvalue\callbyvalue\obj\Debug\callbyvalue.csprojResolveAssemblyReference.cache
+D:\keerthi\c#\callbyvalue\callbyvalue\obj\Debug\callbyvalue.csproj.CoreCompileInputs.cache
+D:\keerthi\c#\callbyvalue\callbyvalue\obj\Debug\callbyvalue.exe
+D:\keerthi\c#\callbyvalue\callbyvalue\obj\Debug\callbyvalue.pdb
